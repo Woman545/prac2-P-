@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+.Python
+
+# Виртуальные окружения
+flask-todo/
+venv/
+.venv/
+env/
+.ENV/
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# База данных (опционально)
+# todo.sqlite
+
+# Документация
+README*.md
+*.md
+
+# Окружение
+.env
+.env.*
+
+# Прочее
+*.log
+.DS_Store

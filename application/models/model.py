@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from application.extensions import db
+from ..extensions import db
 from datetime import datetime
 
 __all__ = ['Todo']
@@ -23,12 +23,10 @@ class Todo(db.Model):
 
     def store_to_db(self):
         """save to database"""
-
         db.session.add(self)
         db.session.commit()
 
     def delete_todo(self):
         """delete data"""
-
         db.session.delete(self)
         db.session.commit()
